@@ -1,0 +1,86 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Lora:ital,wght@0,500;0,600;1,400&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Playfair Display', serif; */
+:root{
+  --primary-font: 'Lato', sans-serif;
+  --secondary-font: 'Lora', serif;
+  --third-font: 'Playfair Display', serif;
+  --primary-text-color: #9A9A9A;
+  --secondary-text-color: #10375C;
+  --thiird-text-color: #FFFFFF;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: var(--primary-font);
+  color: var(--primary-text-color);
+  font-size: 16px;
+}
+
+/* ======================== */
+    /* Utiliites CSS */
+/* ======================== */
+
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+
+/* ======================== */
+    /* Header CSS */
+/* ======================== */
+.header-menu-with-logo {
+  padding: 30px 0;
+}
+.header .frispes-brand {
+  font-family: var(--third-font);
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--secondary-text-color);
+}
+.header .navbar-nav .nav-link{
+  font-weight: bold;
+  line-height: 28px;
+  color: #222831;
+  padding: 0 20px;
+}
+.header .signup-btn,
+.header .login-btn {
+  padding: 12px 24px;
+  font-weight: bold;
+  color: #FF5722;
+  line-height: 19px;
+  border-radius: 5px;
+  transition: all .5s ease;
+}
+.header .login-btn {
+  margin-right: 10px;
+}
+.header .signup-btn:hover,
+.header .login-btn:hover{
+  color: var(--thiird-text-color);
+  background-color: #FF5722;
+}
+
+
+
+
+
+
+
+
+
+
+
