@@ -34,6 +34,53 @@ ul{
   padding: 0;
   list-style: none;
 }
+.section-title h5 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--secondary-text-color);
+  position: relative;
+}
+.section-title h5:after{
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 3px;
+  background: red;
+  top: 50%;
+  left: 10%;
+}
+.section-title h1 {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 67px;
+  color: var(--secondary-text-color);
+}
+.section-title h1 > span{
+  color: #DD2C00;
+}
+.section-title h2 {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 51px;
+  color: var(--secondary-text-color);
+}
+.section-title p{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
